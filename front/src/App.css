@@ -1,0 +1,166 @@
+ /* @media only screen and (max-width: 600px) {
+  body {
+      background-color: lightblue;
+  }
+}
+
+
+img {
+  max-width: 100%;
+   height: auto; 
+
+}
+.contenedor{
+  display: flex;
+  align-items: center;
+}
+
+.foto{
+  margin: 0 0 0 140px;
+  width: 500px;
+  height: 500px;
+}
+
+
+.texto{
+  margin: 60px 0 40px 200px;
+  width: 50%;
+  text-align: left;
+}
+
+.carrousel{
+  height: 700px;
+  width: 100%;
+}
+
+.cartas{
+ display: flex;
+}
+
+.card{
+  margin: 10px 0 0 150px;
+}
+
+.foto-prod {
+  height: 250px;
+}  */
+
+@media only screen and (max-width: 600px) {
+  body {
+      background-color: black;
+  }
+}
+
+img {
+  max-width: 100%;
+  /* height: auto; */
+
+}
+.contenedor{
+  display: flex;
+  align-items: center;
+}
+
+.foto{
+  margin: 0 0 0 140px;
+  width: 500px;
+  height: 500px;
+}
+
+
+.texto{
+  margin: 60px 0 40px 200px;
+  width: 50%;
+  text-align: left;
+}
+
+.carrousel{
+  height: 550px;
+  width: 100%;
+}
+
+.cartas{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 70px; 
+  margin-top: 20px;
+  margin-right: 70px;
+}
+
+.foto-prod {
+  height: 250px;
+}
+
+
+.tarjeta {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tarjeta-imagen {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.tarjeta-contenido {
+  flex: 1;
+}
+
+.tarjeta-titulo {
+  margin: 0;
+}
+
+.tarjeta-descripcion {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.tarjeta-precio {
+  margin: 0;
+  font-weight: bold;
+}
+
+.boton-agregar {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton-agregar:hover {
+  background-color: #45a049;
+}
+.boton-quitar {
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton-quitar:hover {
+  background-color: #a04545;
+}
+
+/* Estilos para el carrito */
+.carrito {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
